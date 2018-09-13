@@ -89,11 +89,39 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+.container {
+  max-width: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
 
 .navigation {
   display: flex;
   justify-content: space-around;
   width: 100%;
+}
+
+.colored-nav {
+  display: block;
+  background: #23123a;
+  height: 50px;
+}
+
+.hero-section {
+  margin-left: -1px;
+  display: block;
+  background-image: url('../assets/img/hero-image.png');
+  height: 670px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.headline {
+  font-size: 70px;
+  color: #fff;
+  position: absolute;
+  left: 100px;
+  top: 140px;
 }
 
 /* ==========================================================================
