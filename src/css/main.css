@@ -117,11 +117,59 @@ textarea {
 }
 
 .headline {
-  font-size: 70px;
+  font-size: 120px;
   color: #fff;
   position: absolute;
   left: 100px;
   top: 140px;
+}
+
+.credit-section {
+  background: #f1f5f8;
+  height: 670px;
+}
+
+.credit-headline {
+  color: #373737;
+  font-size: 40px;
+  position: relative;
+  left: 100px;
+  top: 100px;
+  width: 60%;
+}
+
+.card-info {
+  background: #fff;
+  display: block;
+  height: 400px;
+  position: relative;
+  top: 120px;
+  width: 85%;
+  left: 100px;
+}
+
+.star-rating {
+  line-height: 32px;
+  font-size: 1.25em;
+  color: #59d8d1;
+}
+
+.review {
+  color: #373737;
+}
+
+.card-heading {
+  color: #373737;
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+  padding: 60px !important;
+}
+
+.star-rating .fa-star {
+  color: yellow;
 }
 
 /* ==========================================================================
