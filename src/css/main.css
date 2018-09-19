@@ -110,10 +110,11 @@ textarea {
 .hero-section {
   margin-left: -1px;
   display: block;
-  background-image: url('../assets/img/hero-image.png');
-  height: 670px;
-  background-size: 100%;
-  background-repeat: no-repeat;
+  height: 550px;
+}
+
+.hero-section > img {
+  width: 100%;
 }
 
 .headline {
@@ -129,6 +130,10 @@ textarea {
   height: 670px;
 }
 
+.mobile-background {
+  display: none;
+}
+
 .credit-headline {
   color: #373737;
   font-size: 40px;
@@ -136,6 +141,7 @@ textarea {
   left: 100px;
   top: 100px;
   width: 60%;
+  margin-top: 70px;
 }
 
 .card-info {
@@ -226,6 +232,172 @@ textarea {
   border-radius: 20px;
   color: #fff;
   border: 0;
+}
+
+.see-more {
+  padding-left: 60px;
+}
+
+.pros-list {
+  width: 67%;
+}
+
+/* Responsive changes */
+@media (min-width: 320px) and (max-width: 480px) {
+
+  .credit-headline {
+    font-size: 22px;
+    left: 0;
+    top: 0;
+    padding: 20px;
+    width: 100%;
+    margin-top: 0;
+  }
+
+  .card-info {
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+
+  .mobile-background {
+    display: block;
+    height: 550px;
+  }
+
+  .headline {
+    font-size: 65px;
+    top: 140px;
+    left: 10px;
+  }
+
+  .card-holder {
+    padding-left: 20px;
+  }
+
+  .classic-background {
+    display: none;
+  }
+
+  .info {
+    padding: 0 15px !important;
+  }
+
+  .info > h3 {
+    font-size: 20px;
+    padding-top: 20px;
+  }
+
+  .star-rating {
+    display: none;
+  }
+
+  .approval-odds > h3 {
+    display: none;
+  }
+
+  .credit-info {
+    flex-direction: column;
+    padding-left: 0 !important;
+  }
+
+  .card-example > img {
+    width: 150px;
+  }
+
+  .pros-list {
+    width: 100%;
+  }
+
+  .apply-now {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .apply-now > button {
+    width: 100%;
+  }
+
+}
+
+/* Tablet responsive changes */
+@media (min-width: 481px) and (max-width: 768px) {
+  .credit-headline {
+    font-size: 22px;
+    left: 0;
+    top: 0;
+    padding: 20px;
+    width: 100%;
+    margin-top: 0;
+  }
+
+  .hero-section {
+    height: auto;
+  }
+
+  .card-info {
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+
+  .mobile-background {
+    display: none;
+    height: 550px;
+  }
+
+  .headline {
+    font-size: 65px;
+    top: 140px;
+    left: 10px;
+  }
+
+  .card-holder {
+    padding-left: 20px;
+  }
+
+  .classic-background {
+    display: block;
+  }
+
+  .info {
+    padding: 0 15px !important;
+  }
+
+  .info > h3 {
+    font-size: 20px;
+    padding-top: 20px;
+  }
+
+  .star-rating {
+    display: none;
+  }
+
+  .approval-odds > h3 {
+    display: none;
+  }
+
+  .credit-info {
+    flex-direction: column;
+    padding-left: 0 !important;
+  }
+
+  .card-example > img {
+    width: 150px;
+  }
+
+  .pros-list {
+    width: 100%;
+  }
+
+  .apply-now {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .apply-now > button {
+    width: 100%;
+  }
 }
 
 /* ==========================================================================
